@@ -1,0 +1,227 @@
+@font-face {
+	font-family: avanti;
+	src: url(../fonts/Avanti.ttf);
+}
+
+* {
+	font-family: avanti;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+header {
+	height: 112px;
+}
+
+header img {
+	margin-left: -10px;
+}
+
+nav a {
+	padding: 15px 10px;
+	margin: 0 13px;
+}
+
+nav a:hover {
+	background-color: #b4af91;
+	color: #44464d;
+}
+
+#top-block {
+	background-color: #44464d;
+	border-bottom: 12px solid #b4af91;
+}
+
+.logo {
+	top: 10px;
+	width: 96px;
+	height: 99px;
+  position: absolute;
+}
+
+.f-block {
+	background-image: url("../images/bg/Шар_12.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 1084px;
+	font-size: 65pt;
+	line-height: 180px;
+	color: white;
+	padding-top: 30px;
+}
+
+#portfolio {
+	background-image: url("../images/bg/Шар_11.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.portfolio_layer {
+	background-image: url("../images/bg/Прямокутник\ 8.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	opacity: 1;
+  height: 1116px;
+}
+
+.portfolio_head-text {
+	padding: 32px 0 12px 0;
+	font-size: 56px;
+	color: #44464d;
+	line-height: 32px;
+}
+
+.portfolio_head-box {
+	height: 98px;
+	width: 100%;
+	border-bottom: 12px solid #44464d;
+}
+
+#portfolio .row {
+	padding-top: 32px;
+}
+
+.carousel-item {
+	max-width: 582px;
+	margin-left: 75px;
+}
+
+.carousel-control-next {
+	margin-right: -30px;
+}
+
+.carousel-control-prev {
+	margin-left: -30px;
+}
+
+.carousel-control-next-icon {
+	background-image: url("../images/logo/next.png");
+	width: 64px;
+  height: 121px;
+}
+
+.carousel-control-prev-icon {
+  background-image: url("../images/logo/next_1.png");
+  width: 64px;
+  height: 121px;
+}
+
+#portfolio .col-lg-10 {
+	color: #44464d;
+	font-size: 18.5pt;
+	margin-top: 22px;
+}
+
+#bio {
+	background-image: url("../images/bg/Шар\ 10.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 989px;
+	color: white;
+}
+
+.bio_layer {
+	background-image: url("../images/bg/Прямокутник\ 5.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	opacity: 1;
+  height: 983px;
+}
+
+.bio_head-box {
+	width: 100%;
+	height: 77px;
+	background-color: #44464d;
+	border-bottom: 12px solid #b4af91;
+}
+
+.bio_head-text {
+	padding: 17px 0 18px 0;
+	font-size: 56px;
+	color: white;
+	line-height: 32px;
+}
+
+.bio_content-head {
+	padding-top: 35px;
+	/* padding-bottom: 18px; */
+}
+
+.portret {
+	display: block;
+	position: absolute;
+	padding-top: 7px;
+	padding-left: 20px;
+}
+
+#contacts {
+	background-color: #b4af91;
+	margin-top: -6px;
+}
+
+form {
+	padding-top: 21px;
+}
+
+form legend {
+	color: #44464d;
+	line-height: 24px;
+	font-size: 24px;
+	margin-bottom: 21	px;
+}
+
+input {
+	border-radius: 7px;
+  width: 390px;
+	height: 46px;
+	border: 0;
+	margin-bottom: 24px;
+	padding-left: 19px;
+}
+
+.message {
+	height: 146px;
+	vertical-align: text-top;
+	margin: 0;
+}
+
+button {
+	background-color: #44464d;
+	color: white;
+	border-radius: 7px;
+	margin-left: 250px;
+	border: 0;
+	margin-top: 27px;
+	margin-bottom: 46px;
+}
+
+#contacts img {
+  width: 30px;
+	height: 30px;
+	border-radius: 15px;
+}
+
+.inst, .fb, .phone, .mail {
+	margin-bottom: 25px;
+}
+
+.links {
+	margin-top: 117px;
+	margin-left: -50px;
+}
+
+

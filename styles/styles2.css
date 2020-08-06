@@ -1,0 +1,281 @@
+@font-face {
+	font-family: avanti;
+	src: url(../fonts/Avanti.ttf);
+}
+
+* {
+	font-family: avanti;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+header {
+	height: 112px;
+}
+
+header img {
+	margin-left: -10px;
+}
+
+nav a {
+	padding: 15px 10px;
+	margin: 0 13px;
+}
+
+nav a:hover {
+	background-color: #b4af91;
+	color: #44464d;
+}
+
+#top-block {
+	background-color: #44464d;
+}
+
+.logo {
+	top: 10px;
+	width: 96px;
+	height: 99px;
+  position: absolute;
+}
+
+#portfolio {
+	background-image: url("../images/bg/Шар\ 52.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+  height: 3925px;
+}
+
+.portfolio_layer {
+	background-image: url("../images/bg/grid_layer.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	opacity: 1;
+  height: 3925px;
+}
+
+.portfolio_head-text {
+	padding: 32px 0 12px 0;
+	font-size: 56px;
+	color: #44464d;
+	line-height: 32px;
+}
+
+.portfolio_body {
+	display: grid;
+	grid-template-columns: 25% 25% 25% 25%;
+	grid-template-rows: 362px 500px 479px 360px 466px 512px 487px 539px;
+}
+
+.portfolio_text {
+	font-size: 28px;
+	color: #44464d;
+	line-height: 35px;
+	margin-top: 25px;
+	margin-bottom: 0;
+}
+
+.grid-item img {
+  max-width: 262px;
+}
+
+.grid-item {
+	text-align: center;
+	padding-top: 32px;
+}
+
+.parameters {
+  width: 263px;
+  height: 42px;
+	background-color: rgb(68, 70, 77);
+	margin-left: 7px;
+	margin-top: 49px;
+	color: white;
+	line-height: 19px;
+	font-weight: 15px;
+	margin-bottom: 0;
+}
+
+.parameters-2 {
+	margin-top: 23px;
+}
+
+.parameters-3 {
+	margin-top: 9px;
+}
+
+.parameters-4 {
+	margin-top: 25px;
+}
+
+.parameters-5 {
+	margin-top: 75px;
+}
+
+.parameters-8 {
+	margin-top: 30px;
+}
+
+.parameters-9 {
+	margin-top: 8px;
+}
+
+.parameters-10 {
+	margin-top: 9px;
+}
+
+.parameters-12 {
+	margin-top: 18px;
+}
+
+.parameters-13 {
+	margin-top: 22px;
+}
+
+.parameters-15 {
+	margin-top: 10px;
+}
+
+.parameters-17 {
+	margin-top: 13px;
+}
+
+.parameters-18 {
+	margin-top: 23px;
+}
+
+.parameters-19 {
+	margin-top: 34px;
+}
+
+.parameters-20 {
+	margin-top: 26px;
+}
+
+.parameters-21 {
+	margin-top: 21px;
+}
+
+.parameters-23 {
+	margin-top: 13px;
+}
+
+.parameters-25 {
+	margin-top: 14px;
+}
+
+.parameters-26 {
+	margin-top: 16px;
+}
+
+.parameters-27 {
+	margin-top: 12px;
+}
+
+.parameters-29 {
+	margin-top: 94px;
+}
+
+.parameters-31 {
+	margin-top: 72px;
+}
+
+.parameters-32 {
+	margin-top: 50px;
+}
+
+.parameters-34 {
+	margin-top: 134px;
+}
+
+.parameters-35 {
+	margin-top: 143px;
+}
+
+.parameters-36 {
+	margin-top: 12px;
+}
+
+.parameters-37 {
+	margin-top: 12px;
+}
+
+.parameters-40 {
+	margin-top: 10px;
+}
+
+.portfolio_head-box {
+	height: 98px;
+	width: 100%;
+	border-bottom: 12px solid #44464d;
+}
+
+#contacts {
+	background-color: #b4af91;
+	margin-top: -6px;
+}
+
+form {
+	padding-top: 21px;
+}
+
+form legend {
+	color: #44464d;
+	line-height: 24px;
+	font-size: 24px;
+	margin-bottom: 21	px;
+}
+
+input {
+	border-radius: 7px;
+  width: 390px;
+	height: 46px;
+	border: 0;
+	margin-bottom: 24px;
+	padding-left: 19px;
+}
+
+.message {
+	height: 146px;
+	vertical-align: text-top;
+	margin: 0;
+}
+
+button {
+	background-color: #44464d;
+	color: white;
+	border-radius: 7px;
+	margin-left: 250px;
+	border: 0;
+	margin-top: 27px;
+	margin-bottom: 46px;
+}
+
+button:active {
+	background-color: #44464d;
+	border: 0;
+}
+
+#contacts img {
+  width: 30px;
+	height: 30px;
+	border-radius: 15px;
+}
+
+.inst, .fb, .phone, .mail {
+	margin-bottom: 25px;
+}
+
+.links {
+	margin-top: 117px;
+	margin-left: -50px;
+}
