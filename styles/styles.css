@@ -108,7 +108,6 @@ nav a:hover {
 .portfolio-text {
   color: #44464d;
   font-size: calc(12px + 13 * ((100vw - 320px) / (1900 - 320)));
-  /* font-size: 18.5pt; */
   margin-top: 22px;
 }
 
@@ -166,6 +165,56 @@ nav a:hover {
 
 .bio-img img {
   max-width: calc(290px + 100 * ((100vw - 320px) / (1900 - 320)));
+}
+
+#catalog {
+  background-image: url("../images/bg/Шар_11.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.catalog_layer {
+  background-color: rgba(180, 175, 145, 0.6);
+}
+
+.catalog_head-text {
+  padding: 32px 0 12px 0;
+  font-size: 56px;
+  color: #44464d;
+  line-height: 32px;
+}
+
+.catalog_head-box {
+  height: 98px;
+  width: 100%;
+  border-bottom: 12px solid #44464d;
+}
+
+.catalog-text {
+  font-size: 20px;
+  color: #44464d;
+}
+
+.card {
+  border: 0;
+  height: 100%;
+  background: transparent;
+}
+
+.card-body {
+  display: flex;
+}
+
+.card-text {
+  background: #44464d;
+  color: white;
+  width: 100%;
+  text-align: center;
+  font-size: .9rem;
+  font-weight: 400;
+  min-height: 45px;
+  align-self: flex-end;
 }
 
 footer {
