@@ -11,6 +11,11 @@ p {
   margin-bottom: 3px;
 }
 
+nav .container > a:hover {
+  background-color: transparent;
+  color: white;
+}
+
 .navbar button {
   margin: 0;
 }
@@ -219,7 +224,6 @@ nav a:hover {
 
 footer {
   background-color: #b4af91;
-  margin-top: -6px;
 }
 
 .legend-color {
@@ -230,34 +234,10 @@ form {
   padding-top: 21px;
 }
 
-form legend {
-  color: #44464d;
-  line-height: 24px;
-  font-size: 24px;
-  margin-bottom: 21 px;
-}
-
-input {
-  border-radius: 4px;
-  width: 390px;
-  height: 46px;
-  border: 0;
-  margin-bottom: 24px;
-  padding-left: 19px;
-}
-
-.message {
-  width: 390px;
-}
-
-button {
+form button {
   background-color: #44464d;
   color: white;
   border-radius: 7px;
-  margin-left: 250px;
-  border: 0;
-  margin-top: 27px;
-  margin-bottom: 46px;
 }
 
 .contacts img {
@@ -266,6 +246,15 @@ button {
   border-radius: 15px;
 }
 
-.inst, .fb, .phone, .mail {
+.contacts p {
   margin-bottom: 25px;
+}
+
+.contacts a {
+  color: #44464d;
+}
+
+.contacts a:hover {
+  color: #28282b;
+  font-weight: 900;
 }
